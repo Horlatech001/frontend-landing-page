@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+
+/* Banner style */
+
+.banner{
+    background-image: url(./images/bg-header-desktop.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    
+}.banner img{
+    height: 120px;
+}
+
+/* Wrapper style */
+
+.wrapper{
+    text-align: center;
+}
+.wrapper h2{
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(174, 64%, 20%);
+}
+.wrapper p{
+    font-family: "Bai Jamjuree", sans-serif;
+    margin-top: 15px;
+    color: hsl(171, 66%, 44%);
+    padding-bottom: 30px;
+}
+.wrapper-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper #btn1{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: white;
+}
+.wrapper #btn2{
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: white;
+    margin-left: 5px;
+}
+
+/* Wrapper-2 Style */
+
+.wrapper-2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrapper-2 h2{
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(174, 64%, 20%);
+    padding-bottom: 20px;
+}
+.wrapper-2 p{
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(171, 66%, 44%);
+}
+
+/* Wrapper-3 Style */
+    .wrapper-3{
+        display: flex;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .wrapper-3 h2{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(174, 64%, 20%);
+    }
+    .wrapper-3 p{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(171, 66%, 44%);
+        margin-top: 15px;
+    }
+    .wrapper-3 .side-box1, .side-box2, .side-box3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+
+    /* Wrapper-4 Style */
+    .wrapper-4{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .wrapper-4 h2, .wrapper-5 h2{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(174, 64%, 20%);
+    }
+    .wrapper-4 p{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(171, 66%, 44%);
+        margin-top: 15px;
+    }
+    .wrapper-4 img{
+        margin-top: 50px;
+    }
+
+    /* Wrapper-5 Style */
+    .wrapper-5{
+        text-align: center;
+    }
+    .wrapper-5 p{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(171, 66%, 44%);
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    /* Card container style */
+    .card-container{
+        display: flex;
+        margin-top: 80px;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-bottom: 30px;
+    }
+    .card-header{
+        flex-basis: 30%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .card-content{
+        margin-top: 30px;
+    }
+    .card-content h2{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(174, 64%, 20%);
+    }
+    .card-content p{
+        margin-top: 15px;
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(171, 66%, 44%);
+    }
+
+    /* Logo Icon style */
+    .logo-icon{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    /* Wrapper-6 style */
+    .wrapper-6{
+        text-align: center;
+        padding-bottom: 40px;
+        margin-top: 30px;
+    }
+    .button-wrap{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper-6 h2{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(174, 64%, 20%);
+        padding-top: 40px;
+    }
+    .wrapper-6 p{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(171, 66%, 44%);
+        margin-top: 20px;
+    }
+    .wrapper-6 .button-wrap #btn-1{
+        margin-top: 30px;
+        background-color: hsl(171, 66%, 44%);
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+        color: white;
+    }
+    .wrapper-6 .button-wrap #btn-2{
+        background-color: hsl(233, 100%, 69%);
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+
+    /* Footer style */
+    footer{
+        background-color: hsl(0, 54%, 97%);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    footer .foot-box img{
+        height: 50px;
+        width: 50px;
+    }
+    footer .foot-box{
+        text-align: center;
+    }
+    footer .foot-box1{
+        width: 40%;
+        text-align: end;
+        margin-right: 30px;
+    }
+    footer .foot-box1 img{
+        margin-left: 20px;
+    }
+    footer .foot-box ul{
+        list-style: none;
+    }
+    footer .foot-box ul li{
+        font-family: "Bai Jamjuree", sans-serif;
+        color: hsl(174, 64%, 20%);
+    }
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .wrapper-3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .wrapper-3 .side-box1, .side-box2, .side-box3{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .wrapper-3 p{
+        margin-top: 0px;
+    }
+    .wrapper-3 h2{
+        margin-top: 10px;
+    }
+    .computer-box img{
+        height: 400px;
+        width: 500px;
+    }
+    .wrapper-4 img{
+        height: 400px;
+        width: 500px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+        .wrapper-2 h2{
+            padding-bottom: 20px;
+        }
+        .wrapper-2 p{
+            font-size: 14px;
+        }
+        .wrapper-3{
+            display: block;
+        }
+        .side-box{
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .side-box p{
+            font-size: 14px;
+        }
+        .computer-box{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .computer-box img{
+            height: 300px;
+            width: 100%;
+            margin: auto;
+        }
+        .wrapper-4 img{
+            height: 300px;
+            width: 400px;
+        }
+        .wrapper-4 p{
+            font-size: 14px;
+        }
+        .card-container{
+            display: block;
+            margin-top: 30px;
+        }
+        .card-header{
+            margin-top: 40px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .logo-icon{
+            display: block;
+            text-align: center;
+        }
+        .icon{
+            margin-top: 30px;
+        }
+        .wrapper-6 p{
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        footer{
+            display: block;
+        }
+        footer .foot-box{
+            margin-top: 30px;
+        }
+        footer .foot-box1{
+            text-align: center;
+            margin-left: 30%;
+            margin-top: 30px;
+        }
+    }
+@media only screen and (min-width:480px) and (max-width:600px){
+    .banner{
+       height: 250px;
+    }
+    .wrapper, .wrapper-2{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .wrapper-2{
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 20px;
+    }
+    .wrapper-2 h2{
+        padding-bottom: 20px;
+    }
+    .wrapper p, .wrapper-2 p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .wrapper-btn{
+        display: block;
+    }
+    #btn2{
+        margin-top: 10px;
+    }
+    .wrapper-3{
+        display: block;
+    }
+    .side-box{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .side-box p{
+        font-size: 14px;
+    }
+    .computer-box{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .computer-box img{
+        height: 300px;
+        width: 100%;
+        margin: auto;
+    }
+    .wrapper-4 img{
+        height: 300px;
+        width: 400px;
+    }
+    .wrapper-4 p{
+        font-size: 14px;
+    }
+    .card-container{
+        display: block;
+        margin-top: 30px;
+    }
+    .card-header{
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo-icon{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .icon{
+        margin-top: 60px;
+    }
+    .wrapper-6{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .wrapper-6 p{
+        font-size: 14px;
+    }
+    .button-wrap{
+        display: block;
+    }
+    .wrapper-6 .button-wrap #btn-2{
+        margin-top: 10px;
+    }
+    footer{
+        display: block;
+    }
+    footer .foot-box{
+        margin-top: 30px;
+    }
+    footer .foot-box1{
+        text-align: center;
+        margin-left: 28%;
+        margin-top: 30px;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
