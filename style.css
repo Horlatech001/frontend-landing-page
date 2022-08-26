@@ -68,6 +68,8 @@ body{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 28%;
+    padding-right: 28%;
 }
 .wrapper-2 h2{
     font-family: "Bai Jamjuree", sans-serif;
@@ -173,6 +175,7 @@ body{
     .button-wrap{
         display: flex;
         justify-content: center;
+        padding-bottom: 40px;
     }
     .wrapper-6 h2{
         font-family: "Bai Jamjuree", sans-serif;
@@ -238,174 +241,121 @@ body{
         font-family: "Bai Jamjuree", sans-serif;
         color: hsl(174, 64%, 20%);
     }
-@media only screen and (min-width:769px) and (max-width:1024px){
-    .wrapper-3{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .wrapper-3 .side-box1, .side-box2, .side-box3{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    .wrapper-3 p{
-        margin-top: 0px;
-    }
-    .wrapper-3 h2{
-        margin-top: 10px;
-    }
-    .computer-box img{
-        height: 400px;
-        width: 500px;
-    }
-    .wrapper-4 img{
-        height: 400px;
-        width: 500px;
+
+/* Extra large screens Tvs */
+@media only screen and (max-width:1440px){
+    /* .container .wrapper{
+        background-color: blue;
+    } */
+    .wrapper-6{
+        padding: 0px 30%;
     }
 }
-@media only screen and (min-width:601px) and (max-width:768px){
-        .wrapper-2 h2{
-            padding-bottom: 20px;
-        }
-        .wrapper-2 p{
-            font-size: 14px;
-        }
-        .wrapper-3{
-            display: block;
-        }
-        .side-box{
-            text-align: center;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        .side-box p{
-            font-size: 14px;
-        }
-        .computer-box{
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        .computer-box img{
-            height: 300px;
-            width: 100%;
-            margin: auto;
-        }
-        .wrapper-4 img{
-            height: 300px;
-            width: 400px;
-        }
-        .wrapper-4 p{
-            font-size: 14px;
-        }
-        .card-container{
-            display: block;
-            margin-top: 30px;
-        }
-        .card-header{
-            margin-top: 40px;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        .logo-icon{
-            display: block;
-            text-align: center;
-        }
-        .icon{
-            margin-top: 30px;
-        }
-        .wrapper-6 p{
-            margin-top: 15px;
-            font-size: 16px;
-        }
-        footer{
-            display: block;
-        }
-        footer .foot-box{
-            margin-top: 30px;
-        }
-        footer .foot-box1{
-            text-align: center;
-            margin-left: 30%;
-            margin-top: 30px;
-        }
+
+/* Desktops */
+@media only screen and (max-width:1200px){
+    /* .container .wrapper{
+        background-color: red;
+    } */
+    .wrapper-2, .wrapper-6{
+        padding-left: 25%;
+        padding-right: 25%;
     }
-@media only screen and (min-width:480px) and (max-width:600px){
-    .banner{
-       height: 250px;
+    .wrapper-3 .computer-box img{
+        height: 500px;
+        width: 600px;
     }
-    .wrapper, .wrapper-2{
-        margin-right: 10%;
-        margin-left: 10%;
+    .wrapper-4 img{
+        height: 500px;
+        width: 700px;
     }
-    .wrapper-2{
-        margin-left: 2%;
-        margin-right: 2%;
-        padding-bottom: 20px;
+}
+
+/* Laptops */
+@media only screen and (max-width:992px){
+    /* .container .wrapper{
+        background-color: yellow;
+    } */
+    .wrapper-2, .wrapper-6{
+        padding-left: 20%;
+        padding-right: 20%;
     }
-    .wrapper-2 h2{
-        padding-bottom: 20px;
+    .wrapper-3 .computer-box img{
+        height: 350px;
+        width: 450px;
     }
-    .wrapper p, .wrapper-2 p{
-        font-size: 12px;
-        line-height: 25px;
+    .side-box p{
+        font-size: 16px;
+    }
+    .wrapper-3 .side-box1, .side-box2, .side-box3{
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+    .wrapper-4 img{
+        height: 450px;
+        width: 650px;
+    }
+    .card-content h2{
+        font-size: 22px;
+    }
+    .card-content p{
+        font-size: 16px;
+    }
+    .foot-box ul li{
+        font-size: 16px;
+    }
+}
+
+/* ipad and tablet */
+@media only screen and (max-width:768px){
+    /* .container .wrapper{
+        background-color: black;
+    } */
+    .wrapper-2, .wrapper-4{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .wrapper-2 p, .wrapper p, .wrapper-4 p, .wrapper-5 p, .wrapper-6 p{ 
+        font-size: 14px;
     }
     .wrapper-btn{
         display: block;
     }
-    #btn2{
-        margin-top: 10px;
+    .wrapper-btn #btn2{
+        margin-top: 20px;
+    }
+    .wrapper-3 .computer-box img{
+        height: 320px;
+        width: 420px;
     }
     .wrapper-3{
         display: block;
+        text-align: center;
     }
     .side-box{
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .side-box p{
-        font-size: 14px;
-    }
-    .computer-box{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .computer-box img{
-        height: 300px;
-        width: 100%;
-        margin: auto;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .wrapper-4 img{
-        height: 300px;
-        width: 400px;
-    }
-    .wrapper-4 p{
-        font-size: 14px;
+        height: 350px;
+        width: 450px;
+        margin-top: 30px;
     }
     .card-container{
         display: block;
-        margin-top: 30px;
+        margin: 0px 10%;
     }
-    .card-header{
-        margin-top: 40px;
-        margin-left: 10%;
-        margin-right: 10%;
+    .card-icon img{
+        margin-top: 50px;
     }
     .logo-icon{
         display: block;
         text-align: center;
-        margin-top: 30px;
+        margin-top: -15px;
     }
-    .icon{
-        margin-top: 60px;
-    }
-    .wrapper-6{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .wrapper-6 p{
-        font-size: 14px;
+    .icon img{
+        margin-top: 40px;
     }
     .button-wrap{
         display: block;
@@ -416,16 +366,86 @@ body{
     footer{
         display: block;
     }
-    footer .foot-box{
-        margin-top: 30px;
-    }
     footer .foot-box1{
-        text-align: center;
-        margin-left: 28%;
-        margin-top: 30px;
+        margin: auto;
+        border: 1px solid red;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    footer .foot-box ul{
+        margin-top: 20px;
     }
 }
 
+/* custom screen */
+@media only screen and (max-width: 576px){
+    /* .container .wrapper{
+        background-color: orange;
+    } */
+    .wrapper h2{
+        font-size: 22px;
+    }
+    .wrapper p{
+        font-size: 14px;
+    }
+    .wrapper-btn{
+        display: block;
+    }
+    .wrapper-btn #btn2{
+        margin-top: 10px;
+    }
+    .wrapper-2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .side-box h2{
+        font-size: 22px;
+    }
+    .side-box p{
+        font-size: 14px;
+    }
+    .wrapper-4 h2, .wrapper-5 h2, .wrapper-6 h2{
+        font-size: 22px;
+    }
+    .wrapper-4{
+        padding-top: 10px;
+    }
+    .wrapper-4 img{
+        height: 300px;
+        width: 400px;
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    .card-icon img{
+        margin-top: 50px;
+    }
+    .wrapper-6{
+        margin: 0px 20px;
+    }
+    footer .foot-box1{
+        margin: auto;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+}
 
+/* Mobile Device */
+@media only screen and (max-width:480px){
+    /* .container .wrapper{
+        background-color: cyan;
+    } */
+    .wrapper-2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wrapper-3 .computer-box img{
+        height: 250px;
+        width: 350px;
+    }
+    .wrapper-4 img{
+        height: 250px;
+        width: 350px;
+    }
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
