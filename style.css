@@ -352,7 +352,7 @@ body{
     .logo-icon{
         display: block;
         text-align: center;
-        margin-top: -15px;
+        margin-top: 40px;
     }
     .icon img{
         margin-top: 40px;
@@ -368,7 +368,6 @@ body{
     }
     footer .foot-box1{
         margin: auto;
-        border: 1px solid red;
         margin-left: 150px;
         margin-top: 20px;
     }
@@ -413,7 +412,7 @@ body{
     .wrapper-4 img{
         height: 300px;
         width: 400px;
-        margin-top: 30px;
+        margin-top: 60px;
         margin-left: -50px;
     }
     .card-icon img{
@@ -423,8 +422,7 @@ body{
         margin: 0px 20px;
     }
     footer .foot-box1{
-        margin: auto;
-        margin-left: 120px;
+        margin-left: 80px;
         margin-top: 20px;
     }
 }
